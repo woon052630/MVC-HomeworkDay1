@@ -23,7 +23,7 @@ namespace HomeWork.Controllers
             {
                 int Number = i;
                 int Money = Random.Next(90000);
-               // int Year = Random.Next(9999);
+                 // int Year = Random.Next(9999);
                 //int Month = Random.Next(1, 13);
                 int Day = Random.Next(1000);
                 var Time = DateTime.Now.AddMilliseconds(Day).AddDays(Day);
